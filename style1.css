@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+    height: 100vh;
+}
+
+.app-header {
+    background-color: lightpink;
+    height: 64px;
+}
+
+.app-content {
+    background-color: lightgreen;
+    flex: 1;
+}
+
+.app-footer {
+    background-color: lightsalmon;
+    height: 64px;
+}

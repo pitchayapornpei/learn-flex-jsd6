@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: ;
+}
+
+.content {
+    background-color: lightblue;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+}

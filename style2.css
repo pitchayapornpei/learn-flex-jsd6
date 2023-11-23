@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+    height: 100vh;
+}
+
+.app-header {
+    background-color: lightpink;
+    height: 64px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+}
+
+.app-header-search {
+    flex: 1;
+    padding: 6px;
+}
+
+.app-header-button {
+    flex: 1;
+    padding: 6px;
+}
